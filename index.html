@@ -59,7 +59,7 @@ https://templatemo.com/tm-540-lava-landing-page
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
                             <li class="scroll-to-section"><a href="#State_of_matter" class="menu-item">State of matter</a></li>
-                            <li class="scroll-to-section"><a href="#Safety_and_waste management" class="menu-item">Safety and waste management</a>
+                            <li class="scroll-to-section"><a href="#Safety_and_waste_management" class="menu-item">Safety and waste management</a>
                             </li>
                             <li class="scroll-to-section"><a href="#Crystallography" class="menu-item">Crystallography</a>
                             </li>
@@ -303,9 +303,15 @@ https://templatemo.com/tm-540-lava-landing-page
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
                         <h2>State of matter <em>test</em></h2>
-                        <p>A state of matter is one of the four forms that any substance in nature can take: solid, liquid, gas or plasma.
+                        <p id='txtInput1'>A state of matter is one of the four forms that any substance in nature can take: solid, liquid, gas or plasma.
 						Depending on its state, matter will have different properties (density, refractive index, crystal structure, etc… ). These properties will be linked to specific behaviors (viscosity, malleability, etc… ). 
 						</p>
+						<button id='btnSpeak1'>Speak!</button>
+
+						<p hidden> Select Voice: <select id='voiceList'></select> <br><br> </p>
+
+					    <p id='txtInput2'> Do you know Alexis Plessier ?</p>
+					    <button id='btnSpeak2'>Speak!</button>
 
 						<br> <br>
 
@@ -452,6 +458,671 @@ https://templatemo.com/tm-540-lava-landing-page
         </div>
     </section>
 
+    <section class="section" id="Safety_and_waste_management">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Safety and waste management</h2>
+                        
+						<center><h3> Pictograms </h3></center>
+						<br>
+						<p>The chemical danger pictograms are square on a white background and edged in red:
+						</p>
+
+						<br> <br> <br>
+
+						<img src="safety&waste/image1.png" align="left" />
+
+						<p> <strong>"I'm gnawing" = corrosive </strong> <br>
+						Can attack and destroy body tissue and cause severe burns.
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image2.png" align="left" /> 
+
+						<p> <strong>"I kill" = toxic </strong> <br>
+						"I kill" = toxic
+						May present a significant hazard to health or cause death when entered into the body by inhalation, ingestion or skin absorption.
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image3.png" align="left" /> 
+
+						<p> <strong>"I am seriously damaging to health" = dangerous in the long term </strong> <br>
+						These are the CMRs = Carcinogens, Mutagens, Reprotoxic
+						May cause organ damage and also respiratory allergies. 
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image4.png" align="left" /> 
+
+						<p> <strong>"I impair health" = irritant / harmful </strong> <br>
+						May poison, irritate, cause skin allergies, drowsiness and dizziness. 
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image5.png" align="left" /> 
+
+						<p> <strong>"I pollute" = dangerous for the environment </strong> <br>
+						Presents a significant risk to organisms when found in nature.
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image6.png" align="left" /> 
+
+						<p> <strong>"I explode" = explosive </strong> <br>
+						May explode on contact with flame, spark, static electricity, shock, heat or friction.
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image7.png" align="left" /> 
+
+						<p> <strong>"I burn" = flammable </strong> <br>
+						Can easily ignite on contact with flame, spark, heat or friction
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image8.png" align="left" /> 
+
+						<p> <strong>"I burn" = oxidizer </strong> <br>
+						May cause or intensify fire or even cause an explosion
+						</p>
+
+						<br> <br> <br> <br> <br> <br>
+
+						<img src="safety&waste/image9.png" align="left" /> 
+
+						<p> <strong>"I am under pressure" = pressure vessel </strong> <br>
+						Gases under pressure in a container which may explode or refrigerated liquefied gases which may cause cryogenic burns or injury. 
+						</p>
+
+						<br> <br> <br> <br>
+
+						<p>The other types of warning are triangular pictograms on a yellow background. They warn of risks related to the handling of the material or the presence of dangerous material. </p>
+
+						<br> <br> <br> 
+
+						<center> <img src="safety&waste/triangular.png" /> </center>
+
+						<br> <br>
+
+						<p> Sometimes, wearing protective gear is mandatory. This is signified by a round pictogram on a blue background. </p>
+
+						<br> <br> <br> 
+
+						<center> <img src="safety&waste/round.png" /> </center>
+
+						<br> <br> <br> <br> 
+
+						<center><h3> Waste management </h3></center>
+						<br>
+						<p>A consumable is a product that has a fixed lifespan and must be replaced. In the laboratory, it is a disposable material (gloves, cone tips, tubes, Petri dish, scalpels, etc.)
+						Non-consumables are glassware, propipette, instrumental equipment, …
+
+						The main families of waste generated in chemistry are: acidic liquids, basic liquids, halogenated solvents,  non-halogenated solvents, toxic liquids, heavy metals and chemically contaminated consumables. 
+						It is essential to separate halogenated waste from non-halogenated waste!
+						Toxic liquids should be placed in separate and identified containers.
+						Some consumables are soiled with particularly dangerous substances, and they must be placed in specific containers.
+						</p>
+
+						<br> <br> <br> 
+
+						<center> <img src="safety&waste/image10.png" /> </center>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="section" id="Crystallography">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Crystallography</h2>
+
+                        <br>
+                        
+						<center><h3> The solid state: order and disorder </h3></center>
+
+						<br>
+
+						<p> The solid state is a condensed state (ordered or not) characterized by: <br>
+						- chemical entities (atoms, ions, molecules) in contact <br>
+						- interstitial voids smaller than that of chemical entities <br>
+						- interaction forces whose intensity is important because of the proximity of chemical entities <br> <br>
+
+						We distinguish the amorphous state and the crystalline state: <br>
+						- Crystalline state: the most ordered state of matter: <br>
+						o Atoms, molecules or ions occupy a well-defined place, <br>
+						o The crystal has a spatial periodicity <br>
+						o Net melting temperature <br> <br>
+
+						- Amorphous state: it is a disordered state of condensed matter <br>
+						o In this state, atoms, molecules or ions have non-periodic spatial positions <br>
+						o The melting temperature is not well defined <br> <br>
+
+						The solid state can be reached by cooling a liquid body. <br>
+						o If cooling is slow: atoms, molecules or ions have "time" to organize themselves in relation to each other to others, to give a periodic spatial <br> structure, resulting from a balance of the different interactions intermolecular. <br>
+						⇒ Slow cooling achieves a crystalline solid state <br>
+						o If the cooling is sudden: the atoms, molecules or ions are "frozen" in the disordered state which characterizes the liquid state. <br>
+						⇒ Sudden cooling achieves an amorphous solid state <br> <br> <br> <p>
+
+
+
+						<center><h3> Notions of crystallography </h3></center>
+
+						<br>
+
+						<center><h4> Pattern </h4></center>
+
+						<br>
+
+						<p> The smallest pattern is called a "chemical set" (atom, molecule or ion, or set of atoms, molecules, or of ions) which is repeated periodically in the crystal. </p>
+
+						<br>
+
+						<center><h4> Network </h4></center>
+
+						<br>
+
+						<p> If we mark with points the positions of the chemical entities of a crystal, all of these points distributed periodically is called a network, and each point is called a node of the network.
+						To obtain the whole crystal, it suffices to carry out translation operations: a network is defined by three vectors of translation, denoted a, b and c, such that any vector which connects any two nodes (N1 and N2) of the network can be written in the form: N1-N2 = n1 a + n2 b + n3 c (with n1, n2 and n3 relative integers) </p>
+
+						<br>
+
+						<center><h4> Cell </h4></center>
+
+						<br>
+
+						<p> A cell is called a volume of space which makes it possible to reconstitute, by translation, the entire network. One says that an atom (or a node) belongs "properly" to a cell if all of its volume is included in the volume of the cell.
+						A cell must contain a whole number of nodes in clean.
+						If a cell has a single node of its own, it is called an elementary (or primitive) cell.  </p>
+
+						<br>
+
+						<center> <img src="crystallography/image1.png" /> </center>
+
+						<br> <br> 
+
+						<center><h4> Crystalline systems </h4></center>
+
+						<br>
+
+						<p> It is possible to define 7 mesh shapes which define 7 crystal systems:  </p>
+
+						<br>
+
+						<center> <img src="crystallography/image2.png" /> </center>
+
+						<br> <br> 
+
+						<p> Subsystems: characterizes the way to populate a cell: <br>
+							- Simple mode (P): Pattern located at the tops of the mesh <br>
+							- Centered mode (I): Patterns located at the vertices and in the center of the mesh <br>
+							- Centered base mode (S): Patterns located at the vertices and at the centers of the two parallel faces <br>
+							- Face centered mode (F): Patterns located at the vertices and centers of all the faces <br> <br> </p>
+
+						<center> <img src="crystallography/image3.png" /> </center>
+
+						<br> 
+
+						<p> The association of the 7 types of cell and the 4 population modes leads to the definition of 14 types of networks, called Bravais networks. </p>
+
+						<br> <br>
+
+						<center><h4> Cell population </h4></center>
+
+						<br>
+
+						<p> The multiplicity Z of a cell corresponds to the number of patterns that it contains in its own right <br>
+						If Z = 1, we speak of unit cell <br>
+						If Z > 1, we speak of multiple cell <br> <br>
+
+						Example: Face-centered cubic <br>
+						An atom at the top of a cell is shared by 8 cells. Each cell therefore only has 1/8th of a sphere. There are 8 peaks. <br>
+						On the other hand, an atom in the center of a face is shared by 2 cells. There are 6 faces. <br>
+						Cell population: 8 vertices x 1 / 8th pattern + 6 faces x ½ pattern = 4 patterns <br>
+						⇒ Z = 4 <br> </p>
+
+						<br>
+
+						<center><h4> Coordination </h4></center>
+
+						<br>
+
+						<p> Coordination is the number of closest neighbors that a point has. </p>
+
+						<br>
+
+						<center> <img src="crystallography/image4.png" /> </center>
+
+						<br> <br>
+
+						<center><h3> Cohesion in a crystal </h3></center>
+
+						<br> <br>
+
+						<center><h4> Cohesion of a crystal </h4></center>
+
+						<br>
+
+						<p> The cohesion of a crystal is provided by forces of different nature and intensity. It is these forces that keep chemical entities close to each other. The more intense these forces, the more the matter is cohesive. Changes in state will then require reaching high temperatures. <br>
+
+						Depending on the type of force responsible for this cohesion, the crystal is classified into four categories: <br>
+						* Metallic crystal <br>
+						* Ionic crystal <br>
+						* Covalent crystal <br>
+						* Molecular crystal <br>
+						⇒ Each type of crystal has its own unique physical characteristics <br>
+						 </p>
+
+						<br>
+
+						<center><h4> Metallic crystals </h4></center>
+
+						<br>
+
+						<p> Metals crystallize in this category. Their cohesion is due to the metal bond: this is described by the gas model of free electrons: each atom metallic M, which has a fixed position in the crystal, "shares" a valence electron with all of the other atoms. <br>
+						All of the "free" electrons are delocalized over the entire crystal. <br>
+						The metallic bond can be seen as the result of a Coulomb interaction between free electrons and M + cations fixed. <br>
+						Properties of metallic crystals: <br>
+						- Excellent electrical and thermal conductivity <br>
+						- Metallic shine <br>
+						- Reducing character <br>
+						- Variable hardness <br> </p>
+
+						<br>
+
+						<center><h4> Ionic crystals </h4></center>
+
+						<br>
+
+						<p> Ionic crystal: Electrically neutral assembly of cations and anions. <br>
+						Anions come from relatively electronegative atoms (on the right in the classification); cations, few atoms electronegative (on the left in the classification). <br>
+
+						The cohesion of the crystal is ensured by the electrostatic attraction between anions and cations, moderated by the repulsions between ions of the same sign. <br>
+
+						Properties of ionic crystals: <br>
+						- High melting temperature (because very intense anion-cation electrostatic force) <br>
+						- Almost zero electrical conductivity in the solid state, but significant in molten salts or in solution. <br> </p>
+
+						<br>
+
+						<center><h4> Covalent crystals </h4></center>
+
+						<br>
+
+						<p> In a covalent crystal, the atoms are linked together by one (or more) covalent bonds. Pooling of valence electrons between atoms therefore ensures the cohesion of the crystal. <br>
+
+						Properties of covalent crystals: <br>
+						- Rigid crystals <br>
+						- High melting temperature (covalent bonds difficult to break) <br>
+						- Great hardness <br>
+						- Insulating crystals or semiconductors <br> </p>
+
+						<br>
+
+						<center><h4> Molecular crystals </h4></center>
+
+						<br>
+
+						<p> A molecular crystal is an assembly of molecules, held together by intermolecular forces (Van der Waals bonds and possibly hydrogen bonds). <br>
+
+						Example: <br>
+						- Granulated sugar is an assembly of sucrose molecules <br>
+						- Ice, a solid assembly of H2O molecules <br>
+
+						Properties of molecular crystals: <br>
+						- Weak melting temperature (intermolecular forces are weaker than ionic or covalent bonds) <br>
+						- Crumbly and low hardness crystals <br>
+						- Electrical insulating crystals <br> </p>
+
+						<br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Cellular_biology">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Cellular biology</h2>
+
+                        <br>
+
+                        <p> The cell is the fundamental structural and functional unit of life. It is a dynamic structure. Cell biology encompasses both prokaryotic and eukaryotic cells and can be divided into many sub-topics which can include the study of cell metabolism, cell communication, cell cycle, biochemistry and cell composition. </p>
+
+                        <br> <br>
+                        
+						<center><h3> Techniques </h3></center>
+
+						<br> <br>
+						
+						<p> Due to advances in microscopy, the techniques have allowed scientists to better understand the structure and function of cells. There are many commonly used techniques: <br>
+
+						- Cell culture: it uses fast growing cells that make it possible to make a large amount of a specific type of cell. <br>
+
+						- Fluorescence microscopy: fluorescent markers are used to label a specific component of the cell. Then a certain wavelength of light is used to excite the fluorescent label which can then be visualized. <br>
+
+						- Phase contrast microscopy: it uses the optical aspect of light to represent solid, liquid and gas phase changes. <br>
+
+						- Transmission electron microscopy: it involves the staining of metals and the passage of electrons through cells, which will then be deflected when interacting with the metal. This ultimately forms a picture of the components under consideration. <br>
+
+						- Cytometry: the cells are placed in the machine which uses a beam to disperse the cells according to different aspects and can therefore separate them according to their size and content. Cells can also be tagged with GFP-flora and can be separated this way. <br>
+
+						- Cell fractionation: This process requires breaking the cell at high temperature or sonication followed by centrifugation to separate the parts of the cell allowing them to be studied separately. <br> <br>
+						</p>
+
+						<center><h3> Classification and composition </h3></center>
+
+						<br> <br>
+
+						<p> Prokaryotic cells include bacteria and archaea, and do not have a closed cell nucleus. They reproduce by binary fission. Bacteria have several different shapes which mainly include the spherical and the rod. Bacteria can be classified as gram positive or gram negative depending on the composition of the cell wall. <br>
+						Eukaryotic cells can be unicellular or multicellular and include animal, plant, fungal, and protozoan cells which all contain organelles of different shapes and sizes. <br>
+
+						Eukaryotic cells can be distinguished from prokaryotic cells. <br> <br> </p>
+
+						<center> <img src="celullarBiology/image1.png" /> </center>
+
+						<br> <br>
+
+						<p> Main constituents of a “typical” animal eukaryotic cell: <br>
+					    * Plasma membrane: allows exchanges <br>
+					    * Nucleus: it contains the nucleolus (which is not a cellular organism); it is well demarcated and the DNA is inside. <br>
+					    * Golgi apparatus: the interior and exterior do not have the same roles <br>
+					    * Mitochondria: delimited by a membrane, they create energy in the form of ATP <br>
+					    * Ribosome: free or bound; exchanges between interior and exterior. Translates the message into protein. <br>
+					    * Lysosomes: contain acid enzymes <br>
+					    * Endoplasmic reticulum <br> <br>
+
+						The cytoskeleton shapes the cell like a “scaffold” that allows the cell to move. <br> <br>
+
+						Main constituents of a "typical" eukaryotic plant cell: <br>
+						* Vacuole: pushes organisms out of the cell <br>
+						* Chloroplasts: mechanism of photosynthesis <br>
+						* Wall: surrounds the plasma membrane and protects it because the cell is affected by the effects of its environment. <br>
+						Main constituents of a bacterium (prokaryote): <br>
+						* different membrane and different cytoskeleton <br>
+						⇒ Much less constituents <br> <br> </p>
+
+						<center><h3> Cellular metabolism </h3></center>
+
+						<br> <br>
+
+						<p> Cellular metabolism is necessary for the production of energy for the cell and therefore for its survival. It includes many paths.
+						For cellular respiration, once glucose is available, glycolysis occurs in the cytosol of the cell to produce pyruvate. The pyruvate then undergoes decarboxylation to form acetyl coA which can easily be used to produce NADH and FADH2.
+						Metabolism in plant cells includes photosynthesis which is the opposite of respiration because it produces glucose molecules. </p>
+
+						<br> <br>
+
+						<center><h3> The Cell Cycle </h3></center>
+
+						<br> <br>
+
+						<p> Cell growth is the increase in the number of cells in an organism as it grows and develops. The cell cycle is the series of events that take place in a cell and cause it to divide into two daughter cells. <br> <br>
+
+						In cells with eukaryotic nuclei, the cell cycle is divided into two main stages: the interphase and the mitotic phase. During interphase, the cell grows, accumulating the nutrients necessary for mitosis, and reproduces its DNA and some of its organelles. During the mitotic phase, the replicated chromosomes, organelles and cytoplasm separate into two new daughter cells. <br>
+						The mitotic phase is complex and highly regulated. The sequence of events is divided into phases, corresponding to the completion of one set of activities and the start of the other. These phases are sequentially known as: <br>
+						* prophase <br>
+						* prometaph <br>
+						* metaphase <br>
+						* anaphase <br>
+						* telophase
+						 </p>
+
+						<br> <br>
+
+						<center> <img src="celullarBiology/image2.png" /> </center>
+
+						<br> <br>
+
+						<center> <img src="celullarBiology/image3.png" /> </center>
+
+						<br> <br>
+
+						<p> In cells without nuclei (= prokaryotes), the cell cycle is divided into periods B, C and D. Period B extends from the end of cell division to the start of DNA replication. DNA replication occurs during period C. Period D refers to the stage between the end of DNA replication and the bacterial cell dividing into two daughter cells. </p>
+
+						<br> <br>
+
+						<center> <img src="celullarBiology/image4.png" /> </center>
+						
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Basic_calculations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Basic calculations</h2>
+
+                        <br>
+                        
+						<center><h3> Symbols </h3></center>
+
+						<br> <br>
+
+						<center> <img src="BasicCalculations/image1.png" /> </center>
+
+						<br> <br>
+
+						<center><h3> Formulas </h3></center>
+
+						<br> <br>
+
+						<center> <img src="BasicCalculations/image2.png" /> </center>
+						
+						<center> <img src="BasicCalculations/image3.png" /> </center>
+
+						<br> <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Atomistic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Atomistic</h2>
+
+                        <br>
+                        
+						<center><h3> Constituent of matter </h3></center>
+
+						<br> <br>
+
+						<center><h4> The  nucleus </h4></center>
+
+						<br> <br>
+
+						<p>The nucleus contains 2 types of massive particles: <br>
+						the proton which has a charge of + 1.60.10-19 C (coulombs) <br>
+						the neutron which has zero charge <br>
+						The nucleus therefore has a positive charge. The association of protons and neutrons forms nucleons.
+						</p> <br> <br>
+
+						<center><h4> The electronic cloud </h4></center>
+
+						<br> <br>
+
+						<p>These are the set of electrons. An electron has a charge of -1.60.10-19 C. Its charge is negative and it is the exact opposite of the proton. <br>
+						A neutral atom has as many electrons as protons: its overall charge is zero. 
+						</p> <br> <br>
+
+
+						<center><h4> Representations </h4></center>
+
+						<br> <br>
+
+						<p> The number of protons in the nucleus is the atomic number Z <br>
+						The number of neutrons is N <br>
+						The mass number is A: it corresponds to the sum of the number of protons and the number of neutrons so A = Z + N </p> <br> <br>
+
+						<center> <img src="Atomistic/image1.png" /> </center>
+
+						<br> <br>
+
+						<center><h4> Isotopes </h4></center>
+
+						<br> <br>
+
+						<p>Two isotopes are two atoms that have a Z value that is equal BUT have a different A mass number. <br>
+						We deduce that two isotopes vary only by the number of N neutrons.</p>
+
+						<br> <br>
+
+						<center><h3> Atomic model </h3></center>
+
+						<br> <br>
+
+						<center><h4> For the hydrogen atom (and hydrogenoids)</h4></center>
+
+						<br> <br>
+
+						<p> An atom is made up of a very small, massive, positively charged nucleus surrounded by electrons which occupy all available space. <br>
+						The position of electrons in space is described by orbitals which depend on 3 integer quantum numbers: n, l and m. <br>
+						We add a quantum number to the electron which is 1/2: it is the spin s. The spin can be + 1/2 or -1/2. </p> <br> <br>
+
+						<center><h4> Polyelectronic atoms</h4></center>
+
+						<br> <br>
+
+						<p> It is based on the hydrogenoid model. We will fill the quantum boxes by following the Klechkovsky rule and the Pauli principle. </p>
+
+						<br> <br>
+
+						<center><h5> Order of filling </h5></center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image2.png" /> </center>
+
+						<br> <br>
+
+						<center><h5> Pauli exclusion principle </h5></center>
+
+						<br> <br>
+
+						<p> Two electrons of an atom differ by at least 1 of their 4 quantum numbers. As a result, a given orbital contains a maximum of 2 electrons of opposite spin. <br> <br>
+
+						n, l and m will be the same for a given orbital but s will be +1/2 or -1/2 <br> <br>
+
+						One level is saturated for 2n2 electrons </p> <br> <br>
+
+						<center><h5> Hund's rule </h5></center>
+
+						<br> <br>
+
+						<p> In a degenerate energy level, we first occupy all the sublevels by electrons of parallel spin. </p>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image3.png" /> </center>
+
+						<br>
+
+						<center> <img src="Atomistic/image4.png" /> </center>
+
+						<br> <br>
+
+						<p>In a sublayer s we put a maximum of 2 electrons (opposite spins) so 1 box. <br>
+						In a sub-layer p we put 6 electrons so 3 cells. <br>
+						In a sub-layer d we put 10 electrons so 5 cells, etc ... <br>
+						Between each sub-layer, 4 electrons are added each time, so 2 cells. <br>
+						</p> <br> <br>
+
+						<center><h3> Periodic classification of the elements </h3></center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image5.png" /> </center>
+
+						<br> <br>
+
+						<center><h4> Different groups </h4></center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image6.png" /> </center>
+
+						<br> <br>
+
+						<center><h4> Energy of first ionization </h4></center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image7.png" /> </center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image8.png" /> </center>
+
+						<br> <br>
+
+						<center><h4> Variation of the atomic radius and electronegativity </h4></center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image9.png" /> </center>
+
+						<br> <br>
+
+						<center> <img src="Atomistic/image10.png" /> </center>
+
+						<br> <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Periodic_table_of_the_elements">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>Periodic table of the elements</h2>
+
+						<br> <br>
+
+						<center> <img src="PeriodicTableOfElements/image1.png" /> </center>
+
+						<br> <br>
+
+						<p> Each member of the table on this website: 
+							<a href="https://en.wikipedia.org/wiki/Periodic_table#Overview"> Elements </a> </p>
+
+						
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ***** Footer Start ***** -->
     <!-- <footer id="contact-us">
         <div class="container">
@@ -519,6 +1190,88 @@ https://templatemo.com/tm-540-lava-landing-page
             </div>
         </div>
     </footer> -->
+
+    <script>
+        var txtInput = document.querySelector('#txtInput1').innerHTML;
+        var voiceList = document.querySelector('#voiceList');
+        var btnSpeak = document.querySelector('#btnSpeak1');
+        var synth = window.speechSynthesis;
+        var voices = [];
+
+
+        PopulateVoices();
+        if(speechSynthesis !== undefined){
+            speechSynthesis.onvoiceschanged = PopulateVoices;
+        }
+
+        btnSpeak.addEventListener('click', ()=> {
+            var toSpeak = new SpeechSynthesisUtterance(txtInput);
+            var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+            voices.forEach((voice)=>{
+                selectedVoiceName = 'Microsoft Zira Desktop - English (United States)';
+                if(voice.name === selectedVoiceName){
+                    toSpeak.voice = voice;
+                }
+            });
+            synth.speak(toSpeak);
+        });
+
+        function PopulateVoices(){
+            voices = synth.getVoices();
+            var selectedIndex = voiceList.selectedIndex < 0 ? 0 : voiceList.selectedIndex;
+            voiceList.innerHTML = '';
+            voices.forEach((voice)=>{
+                var listItem = document.createElement('option');
+                listItem.textContent = voice.name;
+                listItem.setAttribute('data-lang', voice.lang);
+                listItem.setAttribute('data-name', voice.name);
+                voiceList.appendChild(listItem);
+            });
+
+            voiceList.selectedIndex = selectedIndex;
+        }
+    </script>
+
+    <script>
+        var txtInput2 = document.querySelector('#txtInput2').innerHTML;
+        var voiceList = document.querySelector('#voiceList');
+        var btnSpeak = document.querySelector('#btnSpeak2');
+        var synth = window.speechSynthesis;
+        var voices = [];
+
+
+        PopulateVoices();
+        if(speechSynthesis !== undefined){
+            speechSynthesis.onvoiceschanged = PopulateVoices;
+        }
+
+        btnSpeak.addEventListener('click', ()=> {
+            var toSpeak = new SpeechSynthesisUtterance(txtInput2);
+            var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+            voices.forEach((voice)=>{
+                selectedVoiceName = 'Microsoft Zira Desktop - English (United States)';
+                if(voice.name === selectedVoiceName){
+                    toSpeak.voice = voice;
+                }
+            });
+            synth.speak(toSpeak);
+        });
+
+        function PopulateVoices(){
+            voices = synth.getVoices();
+            var selectedIndex = voiceList.selectedIndex < 0 ? 0 : voiceList.selectedIndex;
+            voiceList.innerHTML = '';
+            voices.forEach((voice)=>{
+                var listItem = document.createElement('option');
+                listItem.textContent = voice.name;
+                listItem.setAttribute('data-lang', voice.lang);
+                listItem.setAttribute('data-name', voice.name);
+                voiceList.appendChild(listItem);
+            });
+
+            voiceList.selectedIndex = selectedIndex;
+        }
+    </script>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
