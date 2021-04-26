@@ -1,0 +1,24 @@
+/* BOUTTON */
+button {
+   background-color: #393e46;
+   color: white;
+   padding: 14px 20px;
+   border: none;
+   cursor: pointer;
+   width: 20%;
+}
+
+.speak:hover{
+   background-color: #3A843D;
+   color: white;
+}
+
+.pause:hover{
+   background-color: #192080;
+   color: white;
+}
+
+.stop:hover{
+   background-color: #BB1E09;
+   color: white;
+}
